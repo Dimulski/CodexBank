@@ -1,0 +1,16 @@
+C:\Projects\CodexBank\src\Data\CodexBank\CodexBank.Models\bin\Debug\netstandard2.0\CodexBank.Models.deps.json
+C:\Projects\CodexBank\src\Data\CodexBank\CodexBank.Models\bin\Debug\netstandard2.0\CodexBank.Models.dll
+C:\Projects\CodexBank\src\Data\CodexBank\CodexBank.Models\bin\Debug\netstandard2.0\CodexBank.Models.pdb
+C:\Projects\CodexBank\src\Data\CodexBank\CodexBank.Models\bin\Debug\netstandard2.0\CodexBank.Common.dll
+C:\Projects\CodexBank\src\Data\CodexBank\CodexBank.Models\bin\Debug\netstandard2.0\Microsoft.Extensions.Identity.Stores.dll
+C:\Projects\CodexBank\src\Data\CodexBank\CodexBank.Models\bin\Debug\netstandard2.0\System.ComponentModel.Annotations.dll
+C:\Projects\CodexBank\src\Data\CodexBank\CodexBank.Models\bin\Debug\netstandard2.0\CodexBank.Common.pdb
+C:\Projects\CodexBank\src\Data\CodexBank\CodexBank.Models\bin\Debug\netstandard2.0\Microsoft.Extensions.Identity.Stores.xml
+C:\Projects\CodexBank\src\Data\CodexBank\CodexBank.Models\bin\Debug\netstandard2.0\System.ComponentModel.Annotations.xml
+C:\Projects\CodexBank\src\Data\CodexBank\CodexBank.Models\obj\Debug\netstandard2.0\CodexBank.Models.csprojAssemblyReference.cache
+C:\Projects\CodexBank\src\Data\CodexBank\CodexBank.Models\obj\Debug\netstandard2.0\CodexBank.Models.csproj.CoreCompileInputs.cache
+C:\Projects\CodexBank\src\Data\CodexBank\CodexBank.Models\obj\Debug\netstandard2.0\CodexBank.Models.AssemblyInfoInputs.cache
+C:\Projects\CodexBank\src\Data\CodexBank\CodexBank.Models\obj\Debug\netstandard2.0\CodexBank.Models.AssemblyInfo.cs
+C:\Projects\CodexBank\src\Data\CodexBank\CodexBank.Models\obj\Debug\netstandard2.0\CodexBank.Models.csproj.CopyComplete
+C:\Projects\CodexBank\src\Data\CodexBank\CodexBank.Models\obj\Debug\netstandard2.0\CodexBank.Models.dll
+C:\Projects\CodexBank\src\Data\CodexBank\CodexBank.Models\obj\Debug\netstandard2.0\CodexBank.Models.pdb

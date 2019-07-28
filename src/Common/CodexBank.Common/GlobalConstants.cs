@@ -1,8 +1,7 @@
-﻿using System;
-
-namespace CodexBank.Common
+﻿namespace CodexBank.Common
 {
-    public class GlobalConstants
+    public static class GlobalConstants
     {
+        public const string AdministratorRoleName = "Admin";
     }
 }

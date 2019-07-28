@@ -1,0 +1,9 @@
+C:\Projects\CodexBank\src\Common\CodexBank.Common\bin\Debug\netstandard2.0\CodexBank.Common.deps.json
+C:\Projects\CodexBank\src\Common\CodexBank.Common\bin\Debug\netstandard2.0\CodexBank.Common.dll
+C:\Projects\CodexBank\src\Common\CodexBank.Common\bin\Debug\netstandard2.0\CodexBank.Common.pdb
+C:\Projects\CodexBank\src\Common\CodexBank.Common\obj\Debug\netstandard2.0\CodexBank.Common.csprojAssemblyReference.cache
+C:\Projects\CodexBank\src\Common\CodexBank.Common\obj\Debug\netstandard2.0\CodexBank.Common.csproj.CoreCompileInputs.cache
+C:\Projects\CodexBank\src\Common\CodexBank.Common\obj\Debug\netstandard2.0\CodexBank.Common.AssemblyInfoInputs.cache
+C:\Projects\CodexBank\src\Common\CodexBank.Common\obj\Debug\netstandard2.0\CodexBank.Common.AssemblyInfo.cs
+C:\Projects\CodexBank\src\Common\CodexBank.Common\obj\Debug\netstandard2.0\CodexBank.Common.dll
+C:\Projects\CodexBank\src\Common\CodexBank.Common\obj\Debug\netstandard2.0\CodexBank.Common.pdb
