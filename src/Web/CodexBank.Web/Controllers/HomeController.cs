@@ -8,7 +8,7 @@ using CodexBank.Web.Models;
 
 namespace CodexBank.Web.Controllers
 {
-    public class HomeController : Controller
+    public class HomeController : BaseController
     {
         public IActionResult Index()
         {

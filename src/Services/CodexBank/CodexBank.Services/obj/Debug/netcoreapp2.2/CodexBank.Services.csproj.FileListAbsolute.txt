@@ -1,0 +1,9 @@
+C:\Projects\CodexBank\src\Services\CodexBank\CodexBank.Services\bin\Debug\netcoreapp2.2\CodexBank.Common.dll
+C:\Projects\CodexBank\src\Services\CodexBank\CodexBank.Services\bin\Debug\netcoreapp2.2\CodexBank.Data.dll
+C:\Projects\CodexBank\src\Services\CodexBank\CodexBank.Services\bin\Debug\netcoreapp2.2\CodexBank.Models.dll
+C:\Projects\CodexBank\src\Services\CodexBank\CodexBank.Services\bin\Debug\netcoreapp2.2\CodexBank.Services.Models.dll
+C:\Projects\CodexBank\src\Services\CodexBank\CodexBank.Services\bin\Debug\netcoreapp2.2\CodexBank.Common.pdb
+C:\Projects\CodexBank\src\Services\CodexBank\CodexBank.Services\obj\Debug\netcoreapp2.2\CodexBank.Services.csprojAssemblyReference.cache
+C:\Projects\CodexBank\src\Services\CodexBank\CodexBank.Services\obj\Debug\netcoreapp2.2\CodexBank.Services.csproj.CoreCompileInputs.cache
+C:\Projects\CodexBank\src\Services\CodexBank\CodexBank.Services\obj\Debug\netcoreapp2.2\CodexBank.Services.AssemblyInfoInputs.cache
+C:\Projects\CodexBank\src\Services\CodexBank\CodexBank.Services\obj\Debug\netcoreapp2.2\CodexBank.Services.AssemblyInfo.cs

@@ -1,0 +1,12 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\Data\CodexBank\CodexBank.Data\CodexBank.Data.csproj" />
+    <ProjectReference Include="..\CodexBank.Services.Models\CodexBank.Services.Models.csproj" />
+  </ItemGroup>
+
+</Project>

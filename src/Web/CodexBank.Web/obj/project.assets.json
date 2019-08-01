@@ -2,6 +2,19 @@
   "version": 3,
   "targets": {
     ".NETCoreApp,Version=v2.2": {
+      "AutoMapper/8.1.1": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.CSharp": "4.5.0",
+          "System.Reflection.Emit": "4.3.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/AutoMapper.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/AutoMapper.dll": {}
+        }
+      },
       "Microsoft.AspNet.WebApi.Client/5.2.6": {
         "type": "package",
         "dependencies": {
@@ -4733,7 +4746,7 @@
       },
       "CodexBank.Data/1.0.0": {
         "type": "project",
-        "framework": ".NETStandard,Version=v2.0",
+        "framework": ".NETCoreApp,Version=v2.2",
         "dependencies": {
           "CodexBank.Models": "1.0.0",
           "Microsoft.EntityFrameworkCore": "2.2.6",
@@ -4748,7 +4761,7 @@
       },
       "CodexBank.Models/1.0.0": {
         "type": "project",
-        "framework": ".NETStandard,Version=v2.0",
+        "framework": ".NETCoreApp,Version=v2.2",
         "dependencies": {
           "CodexBank.Common": "1.0.0"
         },
@@ -4758,10 +4771,56 @@
         "runtime": {
           "bin/placeholder/CodexBank.Models.dll": {}
         }
+      },
+      "CodexBank.Services/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v2.2",
+        "dependencies": {
+          "AutoMapper": "8.1.1",
+          "CodexBank.Data": "1.0.0",
+          "CodexBank.Services.Models": "1.0.0",
+          "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "2.2.0"
+        },
+        "compile": {
+          "bin/placeholder/CodexBank.Services.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CodexBank.Services.dll": {}
+        }
+      },
+      "CodexBank.Services.Models/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v2.2",
+        "dependencies": {
+          "CodexBank.Models": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/CodexBank.Services.Models.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CodexBank.Services.Models.dll": {}
+        }
       }
     }
   },
   "libraries": {
+    "AutoMapper/8.1.1": {
+      "sha512": "GKBliBukkLG0z/U0T4Jy+yEpr5bKDImQ9nEy/T8jqNulwNkWDjiEWa9TL4yCxIhleDbmVmw2xYSaJ3Eb2OcSUg==",
+      "type": "package",
+      "path": "automapper/8.1.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "automapper.8.1.1.nupkg.sha512",
+        "automapper.nuspec",
+        "lib/net461/AutoMapper.dll",
+        "lib/net461/AutoMapper.pdb",
+        "lib/net461/AutoMapper.xml",
+        "lib/netstandard2.0/AutoMapper.dll",
+        "lib/netstandard2.0/AutoMapper.pdb",
+        "lib/netstandard2.0/AutoMapper.xml"
+      ]
+    },
     "Microsoft.AspNet.WebApi.Client/5.2.6": {
       "sha512": "owAlEIUZXWSnkK8Z1c+zR47A0X6ykF4XjbPok4lQKNuciUfHLGPd6QnI+rt/8KlQ17PmF+I4S3f+m+Qe4IvViw==",
       "type": "package",
@@ -12981,12 +13040,23 @@
       "type": "project",
       "path": "../../Data/CodexBank/CodexBank.Models/CodexBank.Models.csproj",
       "msbuildProject": "../../Data/CodexBank/CodexBank.Models/CodexBank.Models.csproj"
+    },
+    "CodexBank.Services/1.0.0": {
+      "type": "project",
+      "path": "../../Services/CodexBank/CodexBank.Services/CodexBank.Services.csproj",
+      "msbuildProject": "../../Services/CodexBank/CodexBank.Services/CodexBank.Services.csproj"
+    },
+    "CodexBank.Services.Models/1.0.0": {
+      "type": "project",
+      "path": "../../Services/CodexBank/CodexBank.Services.Models/CodexBank.Services.Models.csproj",
+      "msbuildProject": "../../Services/CodexBank/CodexBank.Services.Models/CodexBank.Services.Models.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.2": [
       "CodexBank.Common >= 1.0.0",
       "CodexBank.Data >= 1.0.0",
+      "CodexBank.Services >= 1.0.0",
       "Microsoft.AspNetCore.App >= 2.2.0",
       "Microsoft.AspNetCore.Razor.Design >= 2.2.0",
       "Microsoft.NETCore.App >= 2.2.0",
@@ -13031,6 +13101,9 @@
             },
             "C:\\Projects\\CodexBank\\src\\Data\\CodexBank\\CodexBank.Data\\CodexBank.Data.csproj": {
               "projectPath": "C:\\Projects\\CodexBank\\src\\Data\\CodexBank\\CodexBank.Data\\CodexBank.Data.csproj"
+            },
+            "C:\\Projects\\CodexBank\\src\\Services\\CodexBank\\CodexBank.Services\\CodexBank.Services.csproj": {
+              "projectPath": "C:\\Projects\\CodexBank\\src\\Services\\CodexBank\\CodexBank.Services\\CodexBank.Services.csproj"
             }
           }
         }

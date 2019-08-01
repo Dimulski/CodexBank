@@ -77,14 +77,14 @@
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.Fallback.config"
         ],
         "originalTargetFrameworks": [
-          "netstandard2.0"
+          "netcoreapp2.2"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "netstandard2.0": {
+          "netcoreapp2.2": {
             "projectReferences": {
               "C:\\Projects\\CodexBank\\src\\Data\\CodexBank\\CodexBank.Models\\CodexBank.Models.csproj": {
                 "projectPath": "C:\\Projects\\CodexBank\\src\\Data\\CodexBank\\CodexBank.Models\\CodexBank.Models.csproj"
@@ -99,7 +99,7 @@
         }
       },
       "frameworks": {
-        "netstandard2.0": {
+        "netcoreapp2.2": {
           "dependencies": {
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
@@ -109,10 +109,10 @@
               "target": "Package",
               "version": "[2.2.0, )"
             },
-            "NETStandard.Library": {
+            "Microsoft.NETCore.App": {
               "suppressParent": "All",
               "target": "Package",
-              "version": "[2.0.3, )",
+              "version": "[2.2.0, )",
               "autoReferenced": true
             }
           },
@@ -143,14 +143,14 @@
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.Fallback.config"
         ],
         "originalTargetFrameworks": [
-          "netstandard2.0"
+          "netcoreapp2.2"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "netstandard2.0": {
+          "netcoreapp2.2": {
             "projectReferences": {
               "C:\\Projects\\CodexBank\\src\\Common\\CodexBank.Common\\CodexBank.Common.csproj": {
                 "projectPath": "C:\\Projects\\CodexBank\\src\\Common\\CodexBank.Common\\CodexBank.Common.csproj"
@@ -165,12 +165,139 @@
         }
       },
       "frameworks": {
-        "netstandard2.0": {
+        "netcoreapp2.2": {
           "dependencies": {
-            "NETStandard.Library": {
+            "Microsoft.NETCore.App": {
               "suppressParent": "All",
               "target": "Package",
-              "version": "[2.0.3, )",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "C:\\Projects\\CodexBank\\src\\Services\\CodexBank\\CodexBank.Services.Models\\CodexBank.Services.Models.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Projects\\CodexBank\\src\\Services\\CodexBank\\CodexBank.Services.Models\\CodexBank.Services.Models.csproj",
+        "projectName": "CodexBank.Services.Models",
+        "projectPath": "C:\\Projects\\CodexBank\\src\\Services\\CodexBank\\CodexBank.Services.Models\\CodexBank.Services.Models.csproj",
+        "packagesPath": "C:\\Users\\Codex\\.nuget\\packages\\",
+        "outputPath": "C:\\Projects\\CodexBank\\src\\Services\\CodexBank\\CodexBank.Services.Models\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Codex\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.Fallback.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {
+              "C:\\Projects\\CodexBank\\src\\Data\\CodexBank\\CodexBank.Models\\CodexBank.Models.csproj": {
+                "projectPath": "C:\\Projects\\CodexBank\\src\\Data\\CodexBank\\CodexBank.Models\\CodexBank.Models.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "C:\\Projects\\CodexBank\\src\\Services\\CodexBank\\CodexBank.Services\\CodexBank.Services.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Projects\\CodexBank\\src\\Services\\CodexBank\\CodexBank.Services\\CodexBank.Services.csproj",
+        "projectName": "CodexBank.Services",
+        "projectPath": "C:\\Projects\\CodexBank\\src\\Services\\CodexBank\\CodexBank.Services\\CodexBank.Services.csproj",
+        "packagesPath": "C:\\Users\\Codex\\.nuget\\packages\\",
+        "outputPath": "C:\\Projects\\CodexBank\\src\\Services\\CodexBank\\CodexBank.Services\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Codex\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.Fallback.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {
+              "C:\\Projects\\CodexBank\\src\\Data\\CodexBank\\CodexBank.Data\\CodexBank.Data.csproj": {
+                "projectPath": "C:\\Projects\\CodexBank\\src\\Data\\CodexBank\\CodexBank.Data\\CodexBank.Data.csproj"
+              },
+              "C:\\Projects\\CodexBank\\src\\Services\\CodexBank\\CodexBank.Services.Models\\CodexBank.Services.Models.csproj": {
+                "projectPath": "C:\\Projects\\CodexBank\\src\\Services\\CodexBank\\CodexBank.Services.Models\\CodexBank.Services.Models.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[8.1.1, )"
+            },
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
               "autoReferenced": true
             }
           },
@@ -215,6 +342,9 @@
               },
               "C:\\Projects\\CodexBank\\src\\Data\\CodexBank\\CodexBank.Data\\CodexBank.Data.csproj": {
                 "projectPath": "C:\\Projects\\CodexBank\\src\\Data\\CodexBank\\CodexBank.Data\\CodexBank.Data.csproj"
+              },
+              "C:\\Projects\\CodexBank\\src\\Services\\CodexBank\\CodexBank.Services\\CodexBank.Services.csproj": {
+                "projectPath": "C:\\Projects\\CodexBank\\src\\Services\\CodexBank\\CodexBank.Services\\CodexBank.Services.csproj"
               }
             }
           }

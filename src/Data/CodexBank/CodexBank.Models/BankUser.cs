@@ -1,5 +1,6 @@
 ﻿using CodexBank.Common;
 using Microsoft.AspNetCore.Identity;
+using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 
 namespace CodexBank.Models
@@ -18,8 +19,8 @@ namespace CodexBank.Models
         [MaxLength(ModelConstants.User.LastNameMaxLength)]
         public string LastName { get; set; }
 
-        //public ICollection<BankAccount> BankAccounts { get; set; }
+        public ICollection<BankAccount> BankAccounts { get; set; }
 
-        //public ICollection<Card> Cards { get; set; }
+        public ICollection<Card> Cards { get; set; }
     }
 }
