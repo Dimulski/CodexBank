@@ -17,6 +17,7 @@
   <ItemGroup>
     <ProjectReference Include="..\..\Data\CodexBank\CodexBank.Data\CodexBank.Data.csproj" />
     <ProjectReference Include="..\..\Common\CodexBank.Common\CodexBank.Common.csproj" />
+    <ProjectReference Include="..\..\Services\CodexBank\CodexBank.Services\CodexBank.Services.csproj" />
   </ItemGroup>
 
 </Project>

@@ -1,10 +1,18 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
+﻿using CodexBank.Models;
+using Microsoft.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore.Metadata.Builders;
 
 namespace CodexBank.Data.Configurations
 {
-    class UserConfiguration
+    public class UserConfiguration : IEntityTypeConfiguration<BankUser>
     {
+        public void Configure(EntityTypeBuilder<BankUser> builder)
+        {
+            builder
+                .HasMany(u => u.Cards)
+                .WithOne(c => c.User)
+                .HasForeignKey(c => c.UserId)
+                .OnDelete(DeleteBehavior.ClientSetNull);
+        }
     }
 }

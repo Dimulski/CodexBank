@@ -2,7 +2,7 @@
 
 namespace CodexBank.Common.Configuration
 {
-    class BankConfiguration
+    public class BankConfiguration
     {
         [Required]
         [RegularExpression(@"^[A-Z]{3}$")]

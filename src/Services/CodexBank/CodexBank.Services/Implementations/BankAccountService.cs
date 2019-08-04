@@ -2,9 +2,12 @@
 using System.Linq;
 using System.Threading.Tasks;
 using AutoMapper;
+using AutoMapper.QueryableExtensions;
 using CodexBank.Data;
+using CodexBank.Models;
 using CodexBank.Services.Contracts;
 using CodexBank.Services.Models.BankAccount;
+using Microsoft.EntityFrameworkCore;
 
 namespace CodexBank.Services.Implementations
 {
@@ -18,7 +21,7 @@ namespace CodexBank.Services.Implementations
             this.uniqueIdHelper = uniqueIdHelper;
         }
 
-        public Task<string> CreateAsync(BankAccountCreateServiceModel model)
+        public async Task<string> CreateAsync(BankAccountCreateServiceModel model)
         {
             if (!this.IsEntityStateValid(model) ||
                 !this.context.Users.Any(u => u.Id == model.UserId))
@@ -40,42 +43,65 @@ namespace CodexBank.Services.Implementations
             var dbModel = Mapper.Map<BankAccount>(model);
             dbModel.UniqueId = generatedUniqueId;
 
-            await this.Context.Accounts.AddAsync(dbModel);
-            await this.Context.SaveChangesAsync();
+            await this.context.Accounts.AddAsync(dbModel);
+            await this.context.SaveChangesAsync();
 
             return dbModel.Id;
         }
 
-        public Task<bool> ChangeAccountNameAsync(string accountId, string newName)
+        public async Task<T> GetByIdAsync<T>(string id)
+            where T : BankAccountBaseServiceModel
+            => await this.context
+                .Accounts
+                .Where(a => a.Id == id)
+                .ProjectTo<T>()
+                .SingleOrDefaultAsync();
+
+        public async Task<T> GetByUniqueIdAsync<T>(string uniqueId)
+            where T : BankAccountBaseServiceModel
+            => await this.context
+                .Accounts
+                .Where(a => a.UniqueId == uniqueId)
+                .ProjectTo<T>()
+                .SingleOrDefaultAsync();
+
+        public async Task<IEnumerable<T>> GetAccountsAsync<T>(int pageIndex = 1, int count = int.MaxValue)
+            where T : BankAccountBaseServiceModel
+            => await this.context
+                .Accounts
+                .Skip((pageIndex - 1) * count)
+                .Take(count)
+                .ProjectTo<T>()
+                .ToArrayAsync();
+
+        public async Task<IEnumerable<T>> GetAllAccountsByUserIdAsync<T>(string userId)
+            where T : BankAccountBaseServiceModel
+            => await this.context
+                .Accounts
+                .Where(a => a.UserId == userId)
+                .ProjectTo<T>()
+                .ToArrayAsync();
+
+        public async Task<bool> ChangeAccountNameAsync(string accountId, string newName)
         {
-            throw new System.NotImplementedException();
+            var account = await this.context
+                            .Accounts
+                            .FindAsync(accountId);
+            if (account == null)
+            {
+                return false;
+            }
+
+            account.Name = newName;
+            this.context.Update(account);
+            await this.context.SaveChangesAsync();
+
+            return true;
         }
 
-        
-
-        public Task<IEnumerable<T>> GetAccountsAsync<T>(int pageIndex = 1, int count = int.MaxValue) where T : BankAccountBaseServiceModel
-        {
-            throw new System.NotImplementedException();
-        }
-
-        public Task<IEnumerable<T>> GetAllAccountsByUserIdAsync<T>(string userId) where T : BankAccountBaseServiceModel
-        {
-            throw new System.NotImplementedException();
-        }
-
-        public Task<T> GetByIdAsync<T>(string id) where T : BankAccountBaseServiceModel
-        {
-            throw new System.NotImplementedException();
-        }
-
-        public Task<T> GetByUniqueIdAsync<T>(string uniqueId) where T : BankAccountBaseServiceModel
-        {
-            throw new System.NotImplementedException();
-        }
-
-        public Task<int> GetCountOfAccountsAsync()
-        {
-            throw new System.NotImplementedException();
-        }
+        public async Task<int> GetCountOfAccountsAsync()
+            => await this.context
+                .Accounts
+                .CountAsync();
     }
 }

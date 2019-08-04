@@ -1,10 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace CodexBank.Services.Contracts
+﻿namespace CodexBank.Services.Contracts
 {
-    interface IBankAccountUniqueIdHelper
+    public interface IBankAccountUniqueIdHelper
     {
+        string GenerateAccountUniqueId();
+
+        bool IsUniqueIdValid(string id);
     }
 }
