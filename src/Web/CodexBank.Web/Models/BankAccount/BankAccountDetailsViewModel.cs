@@ -1,11 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+﻿using CodexBank.Common.AutoMapping.Contracts;
 
 namespace CodexBank.Web.Models.BankAccount
 {
-    public class BankAccountDetailsViewModel
+    public class BankAccountDetailsViewModel : IMapWith<BankAccountDetailsServiceModel>
     {
     }
 }

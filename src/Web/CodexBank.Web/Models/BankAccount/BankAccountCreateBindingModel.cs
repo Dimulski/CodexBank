@@ -1,11 +1,12 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+﻿using CodexBank.Common.AutoMapping.Contracts;
+using CodexBank.Services.Models.BankAccount;
+using System.ComponentModel.DataAnnotations;
 
 namespace CodexBank.Web.Models.BankAccount
 {
-    public class BankAccountCreateBindingModel
+    public class BankAccountCreateBindingModel : IMapWith<BankAccountCreateServiceModel>
     {
+        [MaxLength(50)]
+        public string Name { get; set; }
     }
 }

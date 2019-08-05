@@ -1,10 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
+﻿using System.Threading.Tasks;
 
 namespace CodexBank.Services.Contracts
 {
-    interface IUserService
+    public interface IUserService
     {
+        Task<string> GetUserIdByUsernameAsync(string username);
+        Task<string> GetAccountOwnerFullNameAsync(string userId);
     }
 }
