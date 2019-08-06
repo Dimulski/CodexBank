@@ -7,3 +7,12 @@ C:\Projects\CodexBank\src\Services\CodexBank\CodexBank.Services\obj\Debug\netcor
 C:\Projects\CodexBank\src\Services\CodexBank\CodexBank.Services\obj\Debug\netcoreapp2.2\CodexBank.Services.csproj.CoreCompileInputs.cache
 C:\Projects\CodexBank\src\Services\CodexBank\CodexBank.Services\obj\Debug\netcoreapp2.2\CodexBank.Services.AssemblyInfoInputs.cache
 C:\Projects\CodexBank\src\Services\CodexBank\CodexBank.Services\obj\Debug\netcoreapp2.2\CodexBank.Services.AssemblyInfo.cs
+C:\Projects\CodexBank\src\Services\CodexBank\CodexBank.Services\bin\Debug\netcoreapp2.2\CodexBank.Services.deps.json
+C:\Projects\CodexBank\src\Services\CodexBank\CodexBank.Services\bin\Debug\netcoreapp2.2\CodexBank.Services.dll
+C:\Projects\CodexBank\src\Services\CodexBank\CodexBank.Services\bin\Debug\netcoreapp2.2\CodexBank.Services.pdb
+C:\Projects\CodexBank\src\Services\CodexBank\CodexBank.Services\bin\Debug\netcoreapp2.2\CodexBank.Data.pdb
+C:\Projects\CodexBank\src\Services\CodexBank\CodexBank.Services\bin\Debug\netcoreapp2.2\CodexBank.Services.Models.pdb
+C:\Projects\CodexBank\src\Services\CodexBank\CodexBank.Services\bin\Debug\netcoreapp2.2\CodexBank.Models.pdb
+C:\Projects\CodexBank\src\Services\CodexBank\CodexBank.Services\obj\Debug\netcoreapp2.2\CodexBank.Services.csproj.CopyComplete
+C:\Projects\CodexBank\src\Services\CodexBank\CodexBank.Services\obj\Debug\netcoreapp2.2\CodexBank.Services.dll
+C:\Projects\CodexBank\src\Services\CodexBank\CodexBank.Services\obj\Debug\netcoreapp2.2\CodexBank.Services.pdb

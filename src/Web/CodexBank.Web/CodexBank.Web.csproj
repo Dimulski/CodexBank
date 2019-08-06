@@ -20,4 +20,10 @@
     <ProjectReference Include="..\..\Services\CodexBank\CodexBank.Services\CodexBank.Services.csproj" />
   </ItemGroup>
 
+
+  <ItemGroup>
+    <Folder Include="Areas\Transactions\Controllers\" />
+    <Folder Include="Areas\Transactions\Views\" />
+  </ItemGroup>
+
 </Project>

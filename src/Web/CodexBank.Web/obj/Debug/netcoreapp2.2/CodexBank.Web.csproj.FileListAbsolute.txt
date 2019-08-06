@@ -42,3 +42,9 @@ C:\Projects\CodexBank\src\Web\CodexBank.Web\obj\Debug\netcoreapp2.2\Razor\Areas\
 C:\Projects\CodexBank\src\Web\CodexBank.Web\obj\Debug\netcoreapp2.2\Razor\Areas\Identity\Pages\Account\_ViewImports.g.cshtml.cs
 C:\Projects\CodexBank\src\Web\CodexBank.Web\obj\Debug\netcoreapp2.2\Razor\Areas\Identity\Pages\_ValidationScriptsPartial.g.cshtml.cs
 C:\Projects\CodexBank\src\Web\CodexBank.Web\obj\Debug\netcoreapp2.2\Razor\Areas\Identity\Pages\_ViewImports.g.cshtml.cs
+C:\Projects\CodexBank\src\Web\CodexBank.Web\bin\Debug\netcoreapp2.2\CodexBank.Services.dll
+C:\Projects\CodexBank\src\Web\CodexBank.Web\bin\Debug\netcoreapp2.2\CodexBank.Services.Models.dll
+C:\Projects\CodexBank\src\Web\CodexBank.Web\bin\Debug\netcoreapp2.2\CodexBank.Services.pdb
+C:\Projects\CodexBank\src\Web\CodexBank.Web\bin\Debug\netcoreapp2.2\CodexBank.Services.Models.pdb
+C:\Projects\CodexBank\src\Web\CodexBank.Web\obj\Debug\netcoreapp2.2\Razor\Views\BankAccounts\Create.g.cshtml.cs
+C:\Projects\CodexBank\src\Web\CodexBank.Web\obj\Debug\netcoreapp2.2\Razor\Views\BankAccounts\Details.g.cshtml.cs

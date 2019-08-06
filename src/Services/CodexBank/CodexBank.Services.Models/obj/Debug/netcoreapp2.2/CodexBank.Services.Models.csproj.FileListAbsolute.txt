@@ -1,0 +1,16 @@
+C:\Projects\CodexBank\src\Services\CodexBank\CodexBank.Services.Models\bin\Debug\netcoreapp2.2\CodexBank.Services.Models.deps.json
+C:\Projects\CodexBank\src\Services\CodexBank\CodexBank.Services.Models\bin\Debug\netcoreapp2.2\CodexBank.Services.Models.dll
+C:\Projects\CodexBank\src\Services\CodexBank\CodexBank.Services.Models\bin\Debug\netcoreapp2.2\CodexBank.Services.Models.pdb
+C:\Projects\CodexBank\src\Services\CodexBank\CodexBank.Services.Models\bin\Debug\netcoreapp2.2\CodexBank.Common.dll
+C:\Projects\CodexBank\src\Services\CodexBank\CodexBank.Services.Models\bin\Debug\netcoreapp2.2\CodexBank.Models.dll
+C:\Projects\CodexBank\src\Services\CodexBank\CodexBank.Services.Models\bin\Debug\netcoreapp2.2\Microsoft.Extensions.Identity.Stores.dll
+C:\Projects\CodexBank\src\Services\CodexBank\CodexBank.Services.Models\bin\Debug\netcoreapp2.2\CodexBank.Models.pdb
+C:\Projects\CodexBank\src\Services\CodexBank\CodexBank.Services.Models\bin\Debug\netcoreapp2.2\CodexBank.Common.pdb
+C:\Projects\CodexBank\src\Services\CodexBank\CodexBank.Services.Models\bin\Debug\netcoreapp2.2\Microsoft.Extensions.Identity.Stores.xml
+C:\Projects\CodexBank\src\Services\CodexBank\CodexBank.Services.Models\obj\Debug\netcoreapp2.2\CodexBank.Services.Models.csprojAssemblyReference.cache
+C:\Projects\CodexBank\src\Services\CodexBank\CodexBank.Services.Models\obj\Debug\netcoreapp2.2\CodexBank.Services.Models.csproj.CoreCompileInputs.cache
+C:\Projects\CodexBank\src\Services\CodexBank\CodexBank.Services.Models\obj\Debug\netcoreapp2.2\CodexBank.Services.Models.AssemblyInfoInputs.cache
+C:\Projects\CodexBank\src\Services\CodexBank\CodexBank.Services.Models\obj\Debug\netcoreapp2.2\CodexBank.Services.Models.AssemblyInfo.cs
+C:\Projects\CodexBank\src\Services\CodexBank\CodexBank.Services.Models\obj\Debug\netcoreapp2.2\CodexBank.Services.Models.csproj.CopyComplete
+C:\Projects\CodexBank\src\Services\CodexBank\CodexBank.Services.Models\obj\Debug\netcoreapp2.2\CodexBank.Services.Models.dll
+C:\Projects\CodexBank\src\Services\CodexBank\CodexBank.Services.Models\obj\Debug\netcoreapp2.2\CodexBank.Services.Models.pdb

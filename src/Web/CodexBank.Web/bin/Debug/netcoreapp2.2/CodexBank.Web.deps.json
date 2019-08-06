@@ -1,7 +1,7 @@
 {
   "runtimeTarget": {
     "name": ".NETCoreApp,Version=v2.2",
-    "signature": "9d7574c4f8918ef8b284de8fba764c824423c3fd"
+    "signature": "550c7d55fee9311cc0c9f4ca3385bca0d71e91ea"
   },
   "compilationOptions": {
     "defines": [
@@ -26,6 +26,7 @@
         "dependencies": {
           "CodexBank.Common": "1.0.0",
           "CodexBank.Data": "1.0.0",
+          "CodexBank.Services": "1.0.0",
           "Microsoft.AspNetCore.App": "2.2.0",
           "Microsoft.AspNetCore.Razor.Design": "2.2.0",
           "Microsoft.NETCore.App": "2.2.0",
@@ -36,6 +37,21 @@
         },
         "compile": {
           "CodexBank.Web.dll": {}
+        }
+      },
+      "AutoMapper/8.1.1": {
+        "dependencies": {
+          "Microsoft.CSharp": "4.5.0",
+          "System.Reflection.Emit": "4.3.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/AutoMapper.dll": {
+            "assemblyVersion": "8.1.1.0",
+            "fileVersion": "8.1.1.0"
+          }
+        },
+        "compile": {
+          "lib/netstandard2.0/AutoMapper.dll": {}
         }
       },
       "Microsoft.CodeAnalysis.CSharp.Workspaces/2.8.0": {
@@ -457,6 +473,31 @@
         },
         "compile": {
           "CodexBank.Models.dll": {}
+        }
+      },
+      "CodexBank.Services/1.0.0": {
+        "dependencies": {
+          "AutoMapper": "8.1.1",
+          "CodexBank.Data": "1.0.0",
+          "CodexBank.Services.Models": "1.0.0",
+          "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "2.2.0"
+        },
+        "runtime": {
+          "CodexBank.Services.dll": {}
+        },
+        "compile": {
+          "CodexBank.Services.dll": {}
+        }
+      },
+      "CodexBank.Services.Models/1.0.0": {
+        "dependencies": {
+          "CodexBank.Models": "1.0.0"
+        },
+        "runtime": {
+          "CodexBank.Services.Models.dll": {}
+        },
+        "compile": {
+          "CodexBank.Services.Models.dll": {}
         }
       },
       "Microsoft.AspNet.WebApi.Client/5.2.6": {
@@ -3593,6 +3634,13 @@
       "serviceable": false,
       "sha512": ""
     },
+    "AutoMapper/8.1.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-GKBliBukkLG0z/U0T4Jy+yEpr5bKDImQ9nEy/T8jqNulwNkWDjiEWa9TL4yCxIhleDbmVmw2xYSaJ3Eb2OcSUg==",
+      "path": "automapper/8.1.1",
+      "hashPath": "automapper.8.1.1.nupkg.sha512"
+    },
     "Microsoft.CodeAnalysis.CSharp.Workspaces/2.8.0": {
       "type": "package",
       "serviceable": true,
@@ -3779,6 +3827,16 @@
       "sha512": ""
     },
     "CodexBank.Models/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "CodexBank.Services/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "CodexBank.Services.Models/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

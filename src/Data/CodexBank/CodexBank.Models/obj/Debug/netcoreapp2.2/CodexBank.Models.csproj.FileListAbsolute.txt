@@ -1,0 +1,14 @@
+C:\Projects\CodexBank\src\Data\CodexBank\CodexBank.Models\bin\Debug\netcoreapp2.2\CodexBank.Models.deps.json
+C:\Projects\CodexBank\src\Data\CodexBank\CodexBank.Models\bin\Debug\netcoreapp2.2\CodexBank.Models.dll
+C:\Projects\CodexBank\src\Data\CodexBank\CodexBank.Models\bin\Debug\netcoreapp2.2\CodexBank.Models.pdb
+C:\Projects\CodexBank\src\Data\CodexBank\CodexBank.Models\bin\Debug\netcoreapp2.2\CodexBank.Common.dll
+C:\Projects\CodexBank\src\Data\CodexBank\CodexBank.Models\bin\Debug\netcoreapp2.2\Microsoft.Extensions.Identity.Stores.dll
+C:\Projects\CodexBank\src\Data\CodexBank\CodexBank.Models\bin\Debug\netcoreapp2.2\CodexBank.Common.pdb
+C:\Projects\CodexBank\src\Data\CodexBank\CodexBank.Models\bin\Debug\netcoreapp2.2\Microsoft.Extensions.Identity.Stores.xml
+C:\Projects\CodexBank\src\Data\CodexBank\CodexBank.Models\obj\Debug\netcoreapp2.2\CodexBank.Models.csprojAssemblyReference.cache
+C:\Projects\CodexBank\src\Data\CodexBank\CodexBank.Models\obj\Debug\netcoreapp2.2\CodexBank.Models.csproj.CoreCompileInputs.cache
+C:\Projects\CodexBank\src\Data\CodexBank\CodexBank.Models\obj\Debug\netcoreapp2.2\CodexBank.Models.AssemblyInfoInputs.cache
+C:\Projects\CodexBank\src\Data\CodexBank\CodexBank.Models\obj\Debug\netcoreapp2.2\CodexBank.Models.AssemblyInfo.cs
+C:\Projects\CodexBank\src\Data\CodexBank\CodexBank.Models\obj\Debug\netcoreapp2.2\CodexBank.Models.csproj.CopyComplete
+C:\Projects\CodexBank\src\Data\CodexBank\CodexBank.Models\obj\Debug\netcoreapp2.2\CodexBank.Models.dll
+C:\Projects\CodexBank\src\Data\CodexBank\CodexBank.Models\obj\Debug\netcoreapp2.2\CodexBank.Models.pdb

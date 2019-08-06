@@ -1,10 +1,14 @@
 ﻿using System;
+using System.Linq;
 using System.Threading.Tasks;
 using AutoMapper;
 using CodexBank.Common;
 using CodexBank.Common.Configuration;
 using CodexBank.Services.Contracts;
 using CodexBank.Services.Models.BankAccount;
+using CodexBank.Services.Models.Transaction;
+using CodexBank.Web.Areas.Transactions.Models;
+using CodexBank.Web.Infrastructure.Extensions;
 using CodexBank.Web.Models.BankAccount;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Options;
@@ -58,7 +62,7 @@ namespace CodexBank.Web.Controllers
 
             this.ShowSuccessMessage(NotificationMessages.BankAccountCreated);
 
-            return this.RedirectToAction("Index", "Home");
+            return this.RedirectToHome();
         }
 
         public async Task<IActionResult> Details(string id, int pageIndex = 1)
@@ -72,20 +76,49 @@ namespace CodexBank.Web.Controllers
                 return this.Forbid();
             }
 
-            var allTransfersCount = await this.moneyTransferService.GetCountOfAllMoneyTransfersForAccountAsync(id);
-            var transfers = (await this.moneyTransferService
-                .GetMoneyTransfersForAccountAsync<MoneyTransferListingServiceModel>(id, pageIndex, ItemsPerPage))
-                .Select(Mapper.Map<MoneyTransferListingDto>)
-                .ToPaginatedList(allTransfersCount, pageIndex, ItemsPerPage);
+            var allTransactionsCount = await this.transactionService.GetCountOfAllTransactionsForAccountAsync(id);
+            var transactions = (await this.transactionService
+                .GetTransactionsForAccountAsync<TransactionListingServiceModel>(id, pageIndex, ItemsPerPage))
+                .Select(Mapper.Map<TransactionListingDto>)
+                .ToPaginatedList(allTransactionsCount, pageIndex, ItemsPerPage);
 
             var viewModel = Mapper.Map<BankAccountDetailsViewModel>(account);
-            viewModel.MoneyTransfers = transfers;
-            viewModel.MoneyTransfersCount = allTransfersCount;
+            viewModel.Transactions = transactions;
+            viewModel.TransactionsCount = allTransactionsCount;
             viewModel.BankName = this.bankConfiguration.BankName;
             viewModel.BankCode = this.bankConfiguration.UniqueIdentifier;
             viewModel.BankCountry = this.bankConfiguration.Country;
 
             return this.View(viewModel);
+        }
+
+        [HttpPost]
+        public async Task<IActionResult> ChangeAccountNameAsync(string accountId, string name)
+        {
+            if (name == null)
+            {
+                return this.Ok(new
+                {
+                    success = false
+                });
+            }
+
+            var account = await this.bankAccountService.GetByIdAsync<BankAccountDetailsServiceModel>(accountId);
+            if (account == null ||
+                account.UserUserName != this.User.Identity.Name)
+            {
+                return this.Ok(new
+                {
+                    success = false
+                });
+            }
+
+            bool isSuccessful = await this.bankAccountService.ChangeAccountNameAsync(accountId, name);
+
+            return this.Ok(new
+            {
+                success = isSuccessful
+            });
         }
     }
 }
