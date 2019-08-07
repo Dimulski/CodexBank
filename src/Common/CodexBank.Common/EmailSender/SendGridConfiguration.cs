@@ -1,10 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
+﻿using System.ComponentModel.DataAnnotations;
 
 namespace CodexBank.Common.EmailSender
 {
-    class SendGridConfiguration
+    public class SendGridConfiguration
     {
+        [Required]
+        public string ApiKey { get; set; }
     }
 }
