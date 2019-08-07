@@ -12,3 +12,5 @@ C:\Projects\CodexBank\src\Data\CodexBank\CodexBank.Models\obj\Debug\netcoreapp2.
 C:\Projects\CodexBank\src\Data\CodexBank\CodexBank.Models\obj\Debug\netcoreapp2.2\CodexBank.Models.csproj.CopyComplete
 C:\Projects\CodexBank\src\Data\CodexBank\CodexBank.Models\obj\Debug\netcoreapp2.2\CodexBank.Models.dll
 C:\Projects\CodexBank\src\Data\CodexBank\CodexBank.Models\obj\Debug\netcoreapp2.2\CodexBank.Models.pdb
+C:\Projects\CodexBank\src\Data\CodexBank\CodexBank.Models\bin\Debug\netcoreapp2.2\Microsoft.Extensions.Options.dll
+C:\Projects\CodexBank\src\Data\CodexBank\CodexBank.Models\bin\Debug\netcoreapp2.2\Microsoft.Extensions.Options.xml
