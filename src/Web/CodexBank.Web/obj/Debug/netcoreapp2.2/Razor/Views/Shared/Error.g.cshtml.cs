@@ -33,8 +33,13 @@ using CodexBank.Web.Models.BankAccount;
 
 #line default
 #line hidden
+#line 5 "C:\Projects\CodexBank\src\Web\CodexBank.Web\Views\_ViewImports.cshtml"
+using CodexBank.Web.Infrastructure.Collections;
+
+#line default
+#line hidden
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"d6a5625cc8fb4476f348b0fe9041c550465d8bf9", @"/Views/Shared/Error.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"cf4ca232da67e6392d559d4362608ee07bd896ba", @"/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"65b2b29b8c6b1fbe0fae17b5de9f83e90db39b09", @"/Views/_ViewImports.cshtml")]
     public class Views_Shared_Error : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<ErrorViewModel>
     {
         #pragma warning disable 1998

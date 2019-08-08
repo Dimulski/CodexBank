@@ -27,7 +27,7 @@ namespace CodexBank.Services.Implementations
                 .Users
                 .SingleOrDefaultAsync(u => u.Id == userId);
 
-            return user?.FirstName + " " + user?.MiddleName + " " + user?.LastName;
+            return user?.FullName;
         }
     }
 }

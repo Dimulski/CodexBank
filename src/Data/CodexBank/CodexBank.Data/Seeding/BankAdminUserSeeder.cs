@@ -19,9 +19,7 @@ namespace CodexBank.Data.Seeding
             {
                 UserName = "Codex",
                 Email = "codex@codexbank.com",
-                FirstName = "Codex",
-                MiddleName = "The",
-                LastName = "God-Emperor",
+                FullName = "Codex Bronzebeard"
             };
 
             var result = await this.userManager.CreateAsync(user, "codex");

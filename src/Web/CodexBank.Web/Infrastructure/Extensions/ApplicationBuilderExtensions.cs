@@ -49,9 +49,7 @@ namespace CodexBank.Web.Infrastructure.Extensions
                 var user = new BankUser
                 {
                     Email = "pesho@codexbank.com",
-                    FirstName = "Pesho",
-                    MiddleName = "Peshev",
-                    LastName = "Peshevski",
+                    FullName = "Pesho Peshev Peshevski",
                     UserName = "pesho@codexbank.com",
                     EmailConfirmed = true,
                     BankAccounts = new List<BankAccount>

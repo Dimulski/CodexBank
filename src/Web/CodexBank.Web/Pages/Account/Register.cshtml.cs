@@ -68,9 +68,7 @@ namespace CodexBank.Web.Pages.Account
             {
                 UserName = this.Input.Email,
                 Email = this.Input.Email,
-                FirstName = this.Input.FullName.Split(" ")[0],
-                MiddleName = this.Input.FullName.Split(" ")[1],
-                LastName = this.Input.FullName.Split(" ")[2]
+                FullName = this.Input.FullName
             };
 
             var result = await this.userManager.CreateAsync(user, this.Input.Password);
