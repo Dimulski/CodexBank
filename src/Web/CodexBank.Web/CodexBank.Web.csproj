@@ -24,6 +24,8 @@
   <ItemGroup>
     <Folder Include="Areas\Transactions\Controllers\" />
     <Folder Include="Areas\Transactions\Views\" />
+    <Folder Include="Pages\Account\Settings\" />
+    <Folder Include="wwwroot\bundle\" />
   </ItemGroup>
 
 </Project>

@@ -46,7 +46,8 @@ namespace CodexBank.Web.Controllers
         {
             if (!this.ModelState.IsValid)
             {
-                return this.View(model);
+                return this.RedirectToHome();
+                //return this.View(model);
             }
 
             var serviceModel = Mapper.Map<BankAccountCreateServiceModel>(model);

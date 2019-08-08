@@ -1,7 +1,7 @@
 {
   "runtimeTarget": {
     "name": ".NETCoreApp,Version=v2.2",
-    "signature": "550c7d55fee9311cc0c9f4ca3385bca0d71e91ea"
+    "signature": "0c1b36564d0a3ffdf281f1404ba4b617c8e758ea"
   },
   "compilationOptions": {
     "defines": [
@@ -282,6 +282,20 @@
           "lib/netstandard1.0/Remotion.Linq.dll": {}
         }
       },
+      "Sendgrid/9.11.0": {
+        "dependencies": {
+          "Newtonsoft.Json": "11.0.2"
+        },
+        "runtime": {
+          "lib/netstandard2.0/SendGrid.dll": {
+            "assemblyVersion": "9.11.0.0",
+            "fileVersion": "9.11.0.0"
+          }
+        },
+        "compile": {
+          "lib/netstandard2.0/SendGrid.dll": {}
+        }
+      },
       "System.Collections.Immutable/1.5.0": {},
       "System.Composition/1.0.31": {
         "dependencies": {
@@ -444,6 +458,10 @@
         }
       },
       "CodexBank.Common/1.0.0": {
+        "dependencies": {
+          "AutoMapper": "8.1.1",
+          "Sendgrid": "9.11.0"
+        },
         "runtime": {
           "CodexBank.Common.dll": {}
         },
@@ -3745,6 +3763,13 @@
       "sha512": "sha512-fK/76UmpC0FXBlGDFVPLJHQlDLYnGC+XY3eoDgCgbtrhi0vzbXDQ3n/IYHhqSKqXQfGw/u04A1drWs7rFVkRjw==",
       "path": "remotion.linq/2.2.0",
       "hashPath": "remotion.linq.2.2.0.nupkg.sha512"
+    },
+    "Sendgrid/9.11.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-I3VdLmsDbqazS5k8OsMAuKvnZz3YruNQxOACfVMDdrM5jjlQE/jOoaNJXcZEG+49TbanCVvOldE56pbKxdiVGA==",
+      "path": "sendgrid/9.11.0",
+      "hashPath": "sendgrid.9.11.0.nupkg.sha512"
     },
     "System.Collections.Immutable/1.5.0": {
       "type": "package",
