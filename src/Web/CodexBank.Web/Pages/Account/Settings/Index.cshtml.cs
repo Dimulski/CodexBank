@@ -31,7 +31,7 @@
                 return this.Forbid();
             }
 
-            this.FullName = user.FirstName + " " + user.MiddleName + " " + user.LastName;
+            this.FullName = user.FullName;
             this.Email = user.Email;
             this.TwoFactorEnabled = user.TwoFactorEnabled;
 

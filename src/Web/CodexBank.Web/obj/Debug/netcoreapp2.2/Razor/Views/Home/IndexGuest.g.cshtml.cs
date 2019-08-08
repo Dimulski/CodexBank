@@ -33,8 +33,13 @@ using CodexBank.Web.Models.BankAccount;
 
 #line default
 #line hidden
+#line 5 "C:\Projects\CodexBank\src\Web\CodexBank.Web\Views\_ViewImports.cshtml"
+using CodexBank.Web.Infrastructure.Collections;
+
+#line default
+#line hidden
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"77869060895fda4266a5e2e2402b1abc33f4306b", @"/Views/Home/IndexGuest.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"cf4ca232da67e6392d559d4362608ee07bd896ba", @"/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"65b2b29b8c6b1fbe0fae17b5de9f83e90db39b09", @"/Views/_ViewImports.cshtml")]
     public class Views_Home_IndexGuest : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<dynamic>
     {
         private static readonly global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute __tagHelperAttribute_0 = new global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute("class", new global::Microsoft.AspNetCore.Html.HtmlString("btn btn-primary btn-lg m-3 animate bounceInUp slow delay-1s"), global::Microsoft.AspNetCore.Razor.TagHelpers.HtmlAttributeValueStyle.DoubleQuotes);
@@ -122,7 +127,7 @@ using CodexBank.Web.Models.BankAccount;
             WriteLiteral("\r\n<div class=\"mx-auto my-4 text-center pb-3\">\r\n    <h2 class=\"animate bounceInLeft slow\">Welcome to CodexBank</h2>\r\n    ");
             EndContext();
             BeginContext(1858, 112, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "77869060895fda4266a5e2e2402b1abc33f4306b8210", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "77869060895fda4266a5e2e2402b1abc33f4306b8371", async() => {
                 BeginContext(1958, 8, true);
                 WriteLiteral("Register");
                 EndContext();
@@ -145,7 +150,7 @@ using CodexBank.Web.Models.BankAccount;
             WriteLiteral("\r\n    ");
             EndContext();
             BeginContext(1976, 117, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "77869060895fda4266a5e2e2402b1abc33f4306b9670", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "77869060895fda4266a5e2e2402b1abc33f4306b9831", async() => {
                 BeginContext(2084, 5, true);
                 WriteLiteral("Login");
                 EndContext();
@@ -172,7 +177,7 @@ using CodexBank.Web.Models.BankAccount;
                 WriteLiteral("\r\n    ");
                 EndContext();
                 BeginContext(2132, 86, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("link", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "77869060895fda4266a5e2e2402b1abc33f4306b11318", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("link", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "77869060895fda4266a5e2e2402b1abc33f4306b11479", async() => {
                 }
                 );
                 __Microsoft_AspNetCore_Mvc_Razor_TagHelpers_UrlResolutionTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper>();

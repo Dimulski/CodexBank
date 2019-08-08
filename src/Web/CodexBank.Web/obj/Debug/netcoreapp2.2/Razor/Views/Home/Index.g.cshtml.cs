@@ -33,8 +33,13 @@ using CodexBank.Web.Models.BankAccount;
 
 #line default
 #line hidden
+#line 5 "C:\Projects\CodexBank\src\Web\CodexBank.Web\Views\_ViewImports.cshtml"
+using CodexBank.Web.Infrastructure.Collections;
+
+#line default
+#line hidden
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"da01df1c3d007a9b20161d9e3ef3447ae4c2c44f", @"/Views/Home/Index.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"cf4ca232da67e6392d559d4362608ee07bd896ba", @"/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"65b2b29b8c6b1fbe0fae17b5de9f83e90db39b09", @"/Views/_ViewImports.cshtml")]
     public class Views_Home_Index : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<HomeViewModel>
     {
         private static readonly global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute __tagHelperAttribute_0 = new global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute("asp-controller", "BankAccounts", global::Microsoft.AspNetCore.Razor.TagHelpers.HtmlAttributeValueStyle.DoubleQuotes);
@@ -89,7 +94,7 @@ using CodexBank.Web.Models.BankAccount;
             WriteLiteral("                        <div class=\"d-flex flex-row justify-content-between hover-parent\">\r\n                            <p class=\"card-text\">\r\n                                ");
             EndContext();
             BeginContext(583, 98, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "da01df1c3d007a9b20161d9e3ef3447ae4c2c44f7476", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "da01df1c3d007a9b20161d9e3ef3447ae4c2c44f7637", async() => {
                 BeginContext(665, 12, false);
 #line 15 "C:\Projects\CodexBank\src\Web\CodexBank.Web\Views\Home\Index.cshtml"
                                                                                                             Write(account.Name);
@@ -158,7 +163,7 @@ using CodexBank.Web.Models.BankAccount;
             WriteLiteral("\r\n                    ");
             EndContext();
             BeginContext(1154, 111, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "da01df1c3d007a9b20161d9e3ef3447ae4c2c44f11699", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "da01df1c3d007a9b20161d9e3ef3447ae4c2c44f11860", async() => {
                 BeginContext(1243, 18, true);
                 WriteLiteral("Create new account");
                 EndContext();
@@ -318,7 +323,7 @@ using CodexBank.Web.Models.BankAccount;
             WriteLiteral("                    </tbody>\r\n                </table>\r\n                ");
             EndContext();
             BeginContext(3268, 123, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "da01df1c3d007a9b20161d9e3ef3447ae4c2c44f19078", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "da01df1c3d007a9b20161d9e3ef3447ae4c2c44f19239", async() => {
                 BeginContext(3366, 21, true);
                 WriteLiteral("View all transactions");
                 EndContext();
@@ -376,7 +381,7 @@ using CodexBank.Web.Models.BankAccount;
                     ");
             EndContext();
             BeginContext(4133, 658, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "da01df1c3d007a9b20161d9e3ef3447ae4c2c44f22157", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "da01df1c3d007a9b20161d9e3ef3447ae4c2c44f22318", async() => {
                 BeginContext(4153, 631, true);
                 WriteLiteral(@"
                         <input type=""hidden"" name=""accountId"">

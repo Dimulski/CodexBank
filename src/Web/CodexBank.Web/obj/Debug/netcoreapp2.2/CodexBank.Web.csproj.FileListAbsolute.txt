@@ -55,3 +55,8 @@ C:\Projects\CodexBank\src\Web\CodexBank.Web\obj\Debug\netcoreapp2.2\Razor\Pages\
 C:\Projects\CodexBank\src\Web\CodexBank.Web\obj\Debug\netcoreapp2.2\Razor\Pages\Transactions.g.cshtml.cs
 C:\Projects\CodexBank\src\Web\CodexBank.Web\obj\Debug\netcoreapp2.2\Razor\Pages\_ViewImports.g.cshtml.cs
 C:\Projects\CodexBank\src\Web\CodexBank.Web\obj\Debug\netcoreapp2.2\Razor\Pages\_ViewStart.g.cshtml.cs
+C:\Projects\CodexBank\src\Web\CodexBank.Web\obj\Debug\netcoreapp2.2\Razor\Areas\Cards\Views\Cards\Create.g.cshtml.cs
+C:\Projects\CodexBank\src\Web\CodexBank.Web\obj\Debug\netcoreapp2.2\Razor\Areas\Cards\Views\Cards\Index.g.cshtml.cs
+C:\Projects\CodexBank\src\Web\CodexBank.Web\obj\Debug\netcoreapp2.2\Razor\Areas\Cards\Views\_ViewImports.g.cshtml.cs
+C:\Projects\CodexBank\src\Web\CodexBank.Web\obj\Debug\netcoreapp2.2\Razor\Areas\Cards\Views\_ViewStart.g.cshtml.cs
+C:\Projects\CodexBank\src\Web\CodexBank.Web\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_PaginationPartial.g.cshtml.cs

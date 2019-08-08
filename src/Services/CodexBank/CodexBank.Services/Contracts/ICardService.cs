@@ -1,9 +1,9 @@
-﻿using CodexBank.Services.Models.Card;
-using System.Collections.Generic;
-using System.Threading.Tasks;
-
-namespace CodexBank.Services.Contracts
+﻿namespace CodexBank.Services.Contracts
 {
+    using CodexBank.Services.Models.Card;
+    using System.Collections.Generic;
+    using System.Threading.Tasks;
+
     public interface ICardService
     {
         Task<bool> CreateAsync(CardCreateServiceModel model);
