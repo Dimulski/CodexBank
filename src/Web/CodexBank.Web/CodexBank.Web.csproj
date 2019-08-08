@@ -22,6 +22,7 @@
 
 
   <ItemGroup>
+    <Folder Include="Areas\Cards\Views\" />
     <Folder Include="Areas\Transactions\Controllers\" />
     <Folder Include="Areas\Transactions\Views\" />
     <Folder Include="Pages\Account\Settings\" />

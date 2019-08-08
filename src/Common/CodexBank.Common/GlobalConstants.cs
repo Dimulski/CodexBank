@@ -11,6 +11,5 @@
 
         public const string TempDataNoTwoFactorKey = "2FANotEnabled";
         public const string IgnoreTwoFactorWarningCookie = "IgnoreTwoFactorWarning";
-
     }
 }
