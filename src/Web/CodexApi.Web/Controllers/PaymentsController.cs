@@ -1,6 +1,14 @@
-﻿using CodexApi.Services.Contracts;
+﻿using AutoMapper;
+using CodexApi.Services.Contracts;
+using CodexApi.Services.Models.Bank;
+using CodexApi.Web.Infrastructure.Helpers.PaymentHelpers;
+using CodexApi.Web.Models;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Options;
+using System;
+using System.Linq;
+using System.Threading.Tasks;
 
 namespace CodexApi.Web.Controllers
 {

@@ -1,10 +1,13 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace CodexApi.Services.Models.Bank
+﻿namespace CodexApi.Services.Models.Bank
 {
-    class BankListingServiceModel
+    public class BankListingServiceModel : BankBaseServiceModel
     {
+        public string Name { get; set; }
+
+        public string Location { get; set; }
+
+        public string SwiftCode { get; set; }
+
+        public string Id { get; set; }
     }
 }

@@ -1,11 +1,16 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+﻿using CodexApi.Services.Models.Bank;
+using CodexBank.Common.AutoMapping.Contracts;
 
 namespace CodexApi.Web.Models
 {
-    public class BankListingViewModel
+    public class BankListingViewModel : IMapWith<BankListingServiceModel>
     {
+        public string Name { get; set; }
+
+        public string Location { get; set; }
+
+        public string SwiftCode { get; set; }
+
+        public string Id { get; set; }
     }
 }
