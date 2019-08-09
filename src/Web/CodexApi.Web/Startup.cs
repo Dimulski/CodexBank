@@ -63,7 +63,7 @@ namespace CodexApi.Web
             app.UseHttpsRedirection();
             app.UseMvc();
 
-            // app.SeedData();
+            app.SeedData();
         }
     }
 }
