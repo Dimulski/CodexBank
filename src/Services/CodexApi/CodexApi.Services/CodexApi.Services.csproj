@@ -5,7 +5,12 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Implementations\" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="2.2.6" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\Data\CodexApi\CodexApi.Data\CodexApi.Data.csproj" />
+    <ProjectReference Include="..\CodexApi.Services.Models\CodexApi.Services.Models.csproj" />
   </ItemGroup>
 
 </Project>

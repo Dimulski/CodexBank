@@ -17,12 +17,12 @@ namespace CodexBank.Web.Areas.Transactions.Controllers
         public GlobalController(
             IBankAccountService bankAccountService,
             IUserService userService,
-            IGlobalTransactionHelper globalTransferHelper)
+            IGlobalTransactionHelper globalTransactionHelper)
             : base(bankAccountService)
         {
             this.bankAccountService = bankAccountService;
             this.userService = userService;
-            this.globalTransactionHelper = globalTransferHelper;
+            this.globalTransactionHelper = globalTransactionHelper;
         }
 
         public async Task<IActionResult> Create()

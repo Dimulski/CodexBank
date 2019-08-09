@@ -1,0 +1,13 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\Common\CodexBank.Common\CodexBank.Common.csproj" />
+    <ProjectReference Include="..\..\..\Data\CodexApi\CodexApi.Models\CodexApi.Models.csproj" />
+
+  </ItemGroup>
+
+</Project>
