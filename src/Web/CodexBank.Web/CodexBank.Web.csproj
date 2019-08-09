@@ -22,7 +22,6 @@
 
 
   <ItemGroup>
-    <Folder Include="Areas\Transactions\Models\Global\" />
     <Folder Include="Pages\Account\Settings\" />
     <Folder Include="wwwroot\bundle\" />
   </ItemGroup>

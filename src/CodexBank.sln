@@ -31,9 +31,11 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CodexBank", "CodexBank", "{
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CodexApi", "CodexApi", "{2243E0EF-6BFC-4B7E-AA6C-C248470F9284}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodexBank.Services", "Services\CodexBank\CodexBank.Services\CodexBank.Services.csproj", "{3BA26702-4109-4A8F-B2A9-5137A9AE4063}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CodexBank.Services", "Services\CodexBank\CodexBank.Services\CodexBank.Services.csproj", "{3BA26702-4109-4A8F-B2A9-5137A9AE4063}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodexBank.Services.Models", "Services\CodexBank\CodexBank.Services.Models\CodexBank.Services.Models.csproj", "{84D60756-383C-4264-931D-193B28B88B30}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CodexBank.Services.Models", "Services\CodexBank\CodexBank.Services.Models\CodexBank.Services.Models.csproj", "{84D60756-383C-4264-931D-193B28B88B30}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodexApi.Services", "Services\CodexApi\CodexApi.Services\CodexApi.Services.csproj", "{D2A38497-E50D-416B-86D0-DFA269941587}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -69,6 +71,10 @@ Global
 		{84D60756-383C-4264-931D-193B28B88B30}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{84D60756-383C-4264-931D-193B28B88B30}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{84D60756-383C-4264-931D-193B28B88B30}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D2A38497-E50D-416B-86D0-DFA269941587}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D2A38497-E50D-416B-86D0-DFA269941587}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D2A38497-E50D-416B-86D0-DFA269941587}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D2A38497-E50D-416B-86D0-DFA269941587}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -85,6 +91,7 @@ Global
 		{2243E0EF-6BFC-4B7E-AA6C-C248470F9284} = {7E730594-EECD-4654-8AA2-26DD7DBA7BDD}
 		{3BA26702-4109-4A8F-B2A9-5137A9AE4063} = {93E15C00-7757-4A98-BE21-7270F5F02A14}
 		{84D60756-383C-4264-931D-193B28B88B30} = {93E15C00-7757-4A98-BE21-7270F5F02A14}
+		{D2A38497-E50D-416B-86D0-DFA269941587} = {2243E0EF-6BFC-4B7E-AA6C-C248470F9284}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {BA0F7DFD-64E3-4524-9253-8A07E53F4BE6}

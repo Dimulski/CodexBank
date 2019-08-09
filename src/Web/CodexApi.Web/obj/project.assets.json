@@ -4438,6 +4438,16 @@
         "runtime": {
           "lib/netstandard1.3/System.Xml.XPath.XDocument.dll": {}
         }
+      },
+      "CodexApi.Services/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "compile": {
+          "bin/placeholder/CodexApi.Services.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CodexApi.Services.dll": {}
+        }
       }
     }
   },
@@ -12069,10 +12079,16 @@
         "system.xml.xpath.xdocument.4.3.0.nupkg.sha512",
         "system.xml.xpath.xdocument.nuspec"
       ]
+    },
+    "CodexApi.Services/1.0.0": {
+      "type": "project",
+      "path": "../../Services/CodexApi/CodexApi.Services/CodexApi.Services.csproj",
+      "msbuildProject": "../../Services/CodexApi/CodexApi.Services/CodexApi.Services.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.2": [
+      "CodexApi.Services >= 1.0.0",
       "Microsoft.AspNetCore.App >= 2.2.0",
       "Microsoft.AspNetCore.Razor.Design >= 2.2.0",
       "Microsoft.NETCore.App >= 2.2.0"
@@ -12110,7 +12126,11 @@
       },
       "frameworks": {
         "netcoreapp2.2": {
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Projects\\CodexBank\\src\\Services\\CodexApi\\CodexApi.Services\\CodexApi.Services.csproj": {
+              "projectPath": "C:\\Projects\\CodexBank\\src\\Services\\CodexApi\\CodexApi.Services\\CodexApi.Services.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

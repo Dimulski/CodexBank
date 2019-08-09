@@ -20,7 +20,7 @@ namespace CodexBank.Web.Areas.Transactions.Models.Internal
         [Required]
         [Range(typeof(decimal), ModelConstants.Transaction.MinStartingPrice,
             ModelConstants.Transaction.MaxStartingPrice, ErrorMessage =
-                "The amount cannot be lower than 0.01.")]
+                NotificationMessages.InvalidTransactionAmount)]
         public decimal Amount { get; set; }
 
         [Required]
