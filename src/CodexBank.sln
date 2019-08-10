@@ -35,13 +35,17 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CodexBank.Services", "Servi
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CodexBank.Services.Models", "Services\CodexBank\CodexBank.Services.Models\CodexBank.Services.Models.csproj", "{84D60756-383C-4264-931D-193B28B88B30}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodexApi.Services", "Services\CodexApi\CodexApi.Services\CodexApi.Services.csproj", "{D2A38497-E50D-416B-86D0-DFA269941587}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CodexApi.Services", "Services\CodexApi\CodexApi.Services\CodexApi.Services.csproj", "{D2A38497-E50D-416B-86D0-DFA269941587}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodexApi.Data", "Data\CodexApi\CodexApi.Data\CodexApi.Data.csproj", "{C6CE4D31-36BB-4304-A9E6-CC137322591F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CodexApi.Data", "Data\CodexApi\CodexApi.Data\CodexApi.Data.csproj", "{C6CE4D31-36BB-4304-A9E6-CC137322591F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodexApi.Models", "Data\CodexApi\CodexApi.Models\CodexApi.Models.csproj", "{D54E118F-AE45-4F21-8BFD-9D583A200D23}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CodexApi.Models", "Data\CodexApi\CodexApi.Models\CodexApi.Models.csproj", "{D54E118F-AE45-4F21-8BFD-9D583A200D23}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodexApi.Services.Models", "Services\CodexApi\CodexApi.Services.Models\CodexApi.Services.Models.csproj", "{8313569E-0744-42D3-BAD6-AAD9B3190D8A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CodexApi.Services.Models", "Services\CodexApi\CodexApi.Services.Models\CodexApi.Services.Models.csproj", "{8313569E-0744-42D3-BAD6-AAD9B3190D8A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodexBank.Services.Tests", "Tests\CodexBank.Services.Tests\CodexBank.Services.Tests.csproj", "{A8A253E1-152A-4CF0-9997-3B00348DFA99}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodexApi.Services.Tests", "Tests\CodexApi.Services.Tests\CodexApi.Services.Tests.csproj", "{97D29B9D-9DDF-4ACD-A5B4-7417CA6993C3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -93,6 +97,14 @@ Global
 		{8313569E-0744-42D3-BAD6-AAD9B3190D8A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8313569E-0744-42D3-BAD6-AAD9B3190D8A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8313569E-0744-42D3-BAD6-AAD9B3190D8A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A8A253E1-152A-4CF0-9997-3B00348DFA99}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A8A253E1-152A-4CF0-9997-3B00348DFA99}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A8A253E1-152A-4CF0-9997-3B00348DFA99}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A8A253E1-152A-4CF0-9997-3B00348DFA99}.Release|Any CPU.Build.0 = Release|Any CPU
+		{97D29B9D-9DDF-4ACD-A5B4-7417CA6993C3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{97D29B9D-9DDF-4ACD-A5B4-7417CA6993C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{97D29B9D-9DDF-4ACD-A5B4-7417CA6993C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{97D29B9D-9DDF-4ACD-A5B4-7417CA6993C3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -113,6 +125,8 @@ Global
 		{C6CE4D31-36BB-4304-A9E6-CC137322591F} = {E7198CE9-9332-4955-AEFC-11FDB64EA007}
 		{D54E118F-AE45-4F21-8BFD-9D583A200D23} = {E7198CE9-9332-4955-AEFC-11FDB64EA007}
 		{8313569E-0744-42D3-BAD6-AAD9B3190D8A} = {2243E0EF-6BFC-4B7E-AA6C-C248470F9284}
+		{A8A253E1-152A-4CF0-9997-3B00348DFA99} = {6F1039DC-F1C4-4990-9E1E-4554C9E6FC80}
+		{97D29B9D-9DDF-4ACD-A5B4-7417CA6993C3} = {6F1039DC-F1C4-4990-9E1E-4554C9E6FC80}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {BA0F7DFD-64E3-4524-9253-8A07E53F4BE6}
