@@ -3,6 +3,7 @@ using AutoMapper;
 using CodexApi.Data;
 using CodexApi.Services.Contracts;
 using CodexApi.Services.Implementations;
+using CodexApi.Web.Infrastructure;
 using CodexBank.Common.AutoMapping.Profiles;
 using CodexBank.Common.Utils;
 using Microsoft.AspNetCore.Builder;
