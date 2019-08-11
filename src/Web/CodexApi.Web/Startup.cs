@@ -49,6 +49,14 @@ namespace CodexApi.Web
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IHostingEnvironment env)
         {
+            using (var serviceScope = app.ApplicationServices.CreateScope())
+            {
+                using (var context = serviceScope.ServiceProvider.GetRequiredService<CodexApiDbContext>())
+                {
+                    context.Database.EnsureCreated();
+                }
+            }
+
             Mapper.Initialize(config => config.AddProfile<DefaultProfile>());
 
             if (env.IsDevelopment())

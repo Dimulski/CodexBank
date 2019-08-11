@@ -741,7 +741,7 @@
       },
       "CodexBank.Common/1.0.0": {
         "type": "project",
-        "framework": ".NETStandard,Version=v2.0",
+        "framework": ".NETCoreApp,Version=v2.2",
         "dependencies": {
           "AutoMapper": "8.1.1",
           "Sendgrid": "9.11.0"
