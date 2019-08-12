@@ -7,5 +7,5 @@ To-do:
 - finish CodexApi
 - connect to Angular-Store
 - improve error handling on binding models
-- add migrations
+- ~~add migrations~~
 - host applications on Azure

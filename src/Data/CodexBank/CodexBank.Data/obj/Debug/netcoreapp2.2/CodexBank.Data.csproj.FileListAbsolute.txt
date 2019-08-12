@@ -3,11 +3,9 @@ C:\Projects\CodexBank\src\Data\CodexBank\CodexBank.Data\bin\Debug\netcoreapp2.2\
 C:\Projects\CodexBank\src\Data\CodexBank\CodexBank.Data\bin\Debug\netcoreapp2.2\CodexBank.Data.pdb
 C:\Projects\CodexBank\src\Data\CodexBank\CodexBank.Data\bin\Debug\netcoreapp2.2\CodexBank.Common.dll
 C:\Projects\CodexBank\src\Data\CodexBank\CodexBank.Data\bin\Debug\netcoreapp2.2\CodexBank.Models.dll
-C:\Projects\CodexBank\src\Data\CodexBank\CodexBank.Data\bin\Debug\netcoreapp2.2\Microsoft.AspNetCore.Http.Abstractions.dll
 C:\Projects\CodexBank\src\Data\CodexBank\CodexBank.Data\bin\Debug\netcoreapp2.2\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
 C:\Projects\CodexBank\src\Data\CodexBank\CodexBank.Data\bin\Debug\netcoreapp2.2\CodexBank.Models.pdb
 C:\Projects\CodexBank\src\Data\CodexBank\CodexBank.Data\bin\Debug\netcoreapp2.2\CodexBank.Common.pdb
-C:\Projects\CodexBank\src\Data\CodexBank\CodexBank.Data\bin\Debug\netcoreapp2.2\Microsoft.AspNetCore.Http.Abstractions.xml
 C:\Projects\CodexBank\src\Data\CodexBank\CodexBank.Data\bin\Debug\netcoreapp2.2\Microsoft.AspNetCore.Identity.EntityFrameworkCore.xml
 C:\Projects\CodexBank\src\Data\CodexBank\CodexBank.Data\obj\Debug\netcoreapp2.2\CodexBank.Data.csprojAssemblyReference.cache
 C:\Projects\CodexBank\src\Data\CodexBank\CodexBank.Data\obj\Debug\netcoreapp2.2\CodexBank.Data.csproj.CoreCompileInputs.cache
@@ -16,3 +14,5 @@ C:\Projects\CodexBank\src\Data\CodexBank\CodexBank.Data\obj\Debug\netcoreapp2.2\
 C:\Projects\CodexBank\src\Data\CodexBank\CodexBank.Data\obj\Debug\netcoreapp2.2\CodexBank.Data.csproj.CopyComplete
 C:\Projects\CodexBank\src\Data\CodexBank\CodexBank.Data\obj\Debug\netcoreapp2.2\CodexBank.Data.dll
 C:\Projects\CodexBank\src\Data\CodexBank\CodexBank.Data\obj\Debug\netcoreapp2.2\CodexBank.Data.pdb
+C:\Projects\CodexBank\src\Data\CodexBank\CodexBank.Data\bin\Debug\netcoreapp2.2\CodexBank.Data.runtimeconfig.json
+C:\Projects\CodexBank\src\Data\CodexBank\CodexBank.Data\bin\Debug\netcoreapp2.2\CodexBank.Data.runtimeconfig.dev.json
