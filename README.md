@@ -6,6 +6,6 @@
 To-do:
 - finish CodexApi
 - connect to Angular-Store
-- improve error handling on binding models
+- clean up magic strings
 - ~~add migrations~~
 - host applications on Azure
